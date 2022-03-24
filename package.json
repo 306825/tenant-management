@@ -1,0 +1,22 @@
+{
+  "name": "tenant-management",
+  "version": "1.0.0",
+  "description": "Application for managing tenants in a multi tenant property",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/306825/tenant-management.git"
+  },
+  "author": "Mdu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/306825/tenant-management/issues"
+  },
+  "homepage": "https://github.com/306825/tenant-management#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
