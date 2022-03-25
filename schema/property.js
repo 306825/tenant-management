@@ -9,5 +9,10 @@ const propertySchema = new mongoose.Schema({
     tenants: [{type: mongoose.Schema.Types.ObjectId, ref:'Tenant'}]
 });
 
+propertySchema.methods.addTenantId = function(id){
+    this.tenants.push(id);
+    this.save();
+}
+
 module.exports = propertySchema;
 module.exports.propertySchema = propertySchema;
